@@ -27,7 +27,8 @@ namespace DimitryGofmanWeddingShopTest.Classes
 
 			if (this.GetType() != otherState.GetType()) return false;
 
-			return X == otherState.X && Y == otherState.Y && Orientation == otherState.Orientation;
+			//only compare position, not orientation, used for collision detection
+			return X == otherState.X && Y == otherState.Y;// && Orientation == otherState.Orientation;
 
 		}
 		public static bool operator ==(RoverState state1, RoverState state2) => state1.Equals(state2);
