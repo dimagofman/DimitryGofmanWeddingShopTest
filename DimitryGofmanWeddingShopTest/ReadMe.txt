@@ -1,18 +1,8 @@
-Test submission for the Wedding Shop
+ï»¿Test submission for the Wedding Shop
 
-Dimitry Gofman
+Dimitry Gofman - dimagofman@gmail.com
 
 20200227
-
-Notes: 
-I picked C# Desktop App with .Net 4.8 as my development environment. As I read the problem, I thought it's a good place to add some visualisations.
-I tried to keep things simple and used some opportunities to demonstrate creative usage of C#. I’ve also added a few features like graph display and collision detection.
-I’ve added a unit test project with a few tests. I didn’t make it exhaustive to save time, there’s just a few basic tests.
-The program starts with the form. You can enter the input into the first text box in the specified protocol format. Click Run and the second text box should show the output.
-The button click is an asynchronous event which runs the simulation task. This task parses the input. I’m using exception throwing to control program flow. A new Plateau object is initialised with the dataset, the output is computed and I’ve added a little graph there as well.
-I’ve separated the problem into entities such as Rover and Plateau to highlight OOP. There are several things I would improve if I had more time. Also, in a production environment, I would use different techniques. I’m happy to talk about that at the interview.
-
-
 
 Problem - Mars Rover
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular,
@@ -25,7 +15,7 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 the rover spin 90 degrees left or right respectively, without moving from its current spot. &#39;M&#39; means move forward one
 grid point and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
-Write a simple application that takes a user's starting point, and then directional instructions and displays the resulting
+Write a simple application that takes a userâ€™s starting point, and then directional instructions and displays the resulting
 position to the user.
 INPUT
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
